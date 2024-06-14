@@ -2,118 +2,121 @@
 /* To ensure cross-browser CSS compatibility, add this line in the HTML file:
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
  */
- /* Use W3C Validator, and test the website on different browsers as well */
+/* Plus use W3C Validator, and test the website on different browsers. */
+
+/* Keyboard shortcuts for VSCode: https://declersoft.net/raccourci-visual-studio-code/ */
 
 html {
-    font-size: 10px;
-    /* background: url('./background.jpg') bottom center; */
-    /* background: url('./records.png') bottom center; */
-    background: url('./mic.png') no-repeat center center fixed;
-    background-size: cover;
-    height: 100%;
-  }
-  body,html {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-  h1 {
-    text-transform: uppercase;
-    font-size: 3rem;
-    color: white;
-    text-shadow: 0 0 .5rem black;
-    display: flex;
-    align-items: center;
-    justify-content: center; /* Center by default */
-    height: 100vh; /* Take up full height of the viewport */
-  }
-  .keys {
-    display: -webkit-box; /* Ensure cross-browser compatibility for flexbox */
-    display: -ms-flexbox; /* Ensure cross-browser compatibility for flexbox */
-    display: flex;
-    flex-wrap: wrap;
-    flex: 1; /* Take up remaining space */
-    height: 100vh; /* Take up full height of the viewport */
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 7%;
-  }
-  .key {
-    border: .25rem solid black;
-    border-radius: .5rem;
-    margin: 1rem;
-    font-size: 1.5rem;
-    padding: 1rem .5rem;
-    transition: all .07s ease;
-    width: 10rem;
-    text-align: center;
-    color: white;
-    background: rgba(0,0,0,0.4);
-    text-shadow: 0 0 .5rem black;
-    margin-top: 20%;
-  }
-  .playing65 {
-    transform: scale(1.1);
-    border-color: #ffc600;
-    box-shadow: 0 0 1rem #ffc600;
-  }
-  .playing83 {
-    transform: scale(1.1);
-    border-color: #ddff00;
-    box-shadow: 0 0 1rem #ddff00;
-  }
-  .playing68 {
-    transform: scale(1.1);
-    border-color: #aeff00;
-    box-shadow: 0 0 1rem #aeff00;
-  }
-  .playing70 {
-    transform: scale(1.1);
-    border-color: #00ffe1;
-    box-shadow: 0 0 1rem #00ffe1;
-  }
-  .playing71 {
-    transform: scale(1.1);
-    border-color: #4ba5f4;
-    box-shadow: 0 0 1rem #4ba5f4;
-  }
-  .playing72 {
-    transform: scale(1.1);
-    border-color: #c460f6;
-    box-shadow: 0 0 1rem #c460f6;
-  }
-  .playing74 {
-    transform: scale(1.1);
-    border-color: #dc40df;
-    box-shadow: 0 0 1rem #fc40df;
-  }
-  .playing75 {
-    transform: scale(1.1);
-    border-color: #ee3b89;
-    box-shadow: 0 0 1rem #ee3b89;
-  }
-  .playing76 {
-    transform: scale(1.1);
-    border-color: #ffc600;
-    box-shadow: 0 0 1rem #ffc600;
-  }
-  kbd {
-    display: block;
-    font-size: 4rem;
-  }
-  .sound {
-    font-size: 1.2rem;
-    text-transform: uppercase;
-    letter-spacing: .1rem;
-    color: #dd78de;
-  }
+  font-size: 10px;
+  /* background: url('./background.jpg') no-repeat center center fixed; */
+  /* background: url('./records.png') no-repeat center center fixed; */
+  background: url("./mic.png") no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 3rem;
+  color: white;
+  text-shadow: 0 0 0.5rem black;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center by default */
+  height: 100vh; /* Take up full height of the viewport */
+}
+.keys {
+  display: -webkit-box; /* Ensure cross-browser compatibility for flexbox */
+  display: -ms-flexbox; /* Ensure cross-browser compatibility for flexbox */
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1; /* Take up remaining space */
+  height: 100vh; /* Take up full height of the viewport */
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 7%;
+}
+.key {
+  border: 0.25rem solid black;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem 0.5rem;
+  transition: all 0.07s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.4);
+  text-shadow: 0 0 0.5rem black;
+  margin-top: 20%;
+}
+.playing65 {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+.playing83 {
+  transform: scale(1.1);
+  border-color: #ddff00;
+  box-shadow: 0 0 1rem #ddff00;
+}
+.playing68 {
+  transform: scale(1.1);
+  border-color: #aeff00;
+  box-shadow: 0 0 1rem #aeff00;
+}
+.playing70 {
+  transform: scale(1.1);
+  border-color: #00ffe1;
+  box-shadow: 0 0 1rem #00ffe1;
+}
+.playing71 {
+  transform: scale(1.1);
+  border-color: #4ba5f4;
+  box-shadow: 0 0 1rem #4ba5f4;
+}
+.playing72 {
+  transform: scale(1.1);
+  border-color: #c460f6;
+  box-shadow: 0 0 1rem #c460f6;
+}
+.playing74 {
+  transform: scale(1.1);
+  border-color: #dc40df;
+  box-shadow: 0 0 1rem #fc40df;
+}
+.playing75 {
+  transform: scale(1.1);
+  border-color: #ee3b89;
+  box-shadow: 0 0 1rem #ee3b89;
+}
+.playing76 {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: #dd78de;
+}
 
-  /* Media queries */
+/* Media queries */
 
-  /* Small devices (smartphones) */
+/* Small devices (smartphones) */
 @media (max-width: 768px) {
   h1 {
     font-size: 1.5rem;
@@ -123,7 +126,7 @@ html {
   .key {
     margin: 0.5rem; /* Reduce margin for smaller devices */
     font-size: 1.2rem;
-    padding-right: 10%; 
+    padding-right: 10%;
     padding: 1rem;
   }
   kbd {
@@ -166,7 +169,7 @@ html {
   .key {
     margin: 1rem; /* Maintain margin for large devices */
     font-size: 1.5rem;
-    padding: 1rem .5rem;
+    padding: 1rem 0.5rem;
   }
   kbd {
     font-size: 4rem;
