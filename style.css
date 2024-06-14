@@ -104,9 +104,10 @@ h1 {
   border-color: #ffc600;
   box-shadow: 0 0 1rem #ffc600;
 }
-kbd {
+.key kbd {
   display: block;
   font-size: 4rem;
+  padding-top: 5%;
 }
 .sound {
   font-size: 1.2rem;
@@ -130,8 +131,8 @@ kbd {
     padding-right: 10%;
     padding: 1rem;
   }
-  kbd {
-    font-size: 2.5rem;
+  .key kbd {
+    font-size: 3rem;
   }
   .sound {
     font-size: 1rem;
@@ -151,8 +152,8 @@ kbd {
     font-size: 1.4rem;
     padding: 1rem;
   }
-  kbd {
-    font-size: 3rem;
+  .key kbd {
+    font-size: 3.5rem;
   }
   .sound {
     font-size: 1.1rem;
@@ -171,9 +172,6 @@ kbd {
     margin: 1rem; /* Maintain margin for large devices */
     font-size: 1.5rem;
     padding: 1rem 0.5rem;
-  }
-  kbd {
-    font-size: 4rem;
   }
   .sound {
     font-size: 1.2rem;
